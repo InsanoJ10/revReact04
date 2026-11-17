@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 20px;
     padding: 10px;
-    background-color: var(--dark);
+    background-color: var(--light);
     color: var(--azul);
     box-shadow: var(--sombra);
     width: 100%;

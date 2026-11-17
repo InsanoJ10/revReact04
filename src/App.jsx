@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className={s.wrapHome}>
-      <Menu/>
+      <Menu />
     </div>
   )
 }
