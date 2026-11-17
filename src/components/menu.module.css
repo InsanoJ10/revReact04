@@ -4,7 +4,8 @@
     justify-content: center;
     gap: 20px;
     padding: 10px;
-    background-color: var(--light);
+    background-color: var(--dark);
     color: var(--azul);
     box-shadow: var(--sombra);
+    width: 100%;
 }
