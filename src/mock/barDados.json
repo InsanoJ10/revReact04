@@ -1,0 +1,14 @@
+[
+  { "label": "janeiro", "Meta": 100, "Atingido": 80 },
+  { "label": "fevereiro", "Meta": 100, "Atingido": 90 },
+  { "label": "março", "Meta": 100, "Atingido": 55 },
+  { "label": "abril", "Meta": 100, "Atingido": 95 },
+  { "label": "maio", "Meta": 100, "Atingido": 74 },
+  { "label": "junho", "Meta": 100, "Atingido": 60 },
+  { "label": "julho", "Meta": 100, "Atingido": 82 },
+  { "label": "agosto", "Meta": 150, "Atingido": 120 },
+  { "label": "setembro", "Meta": 100, "Atingido": 45 },
+  { "label": "outubro", "Meta": 150, "Atingido": 143 },
+  { "label": "novembro", "Meta": 100, "Atingido": 20 },
+  { "label": "dezembro", "Meta": 100, "Atingido": 5 }
+]

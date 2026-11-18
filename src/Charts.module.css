@@ -5,4 +5,44 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 50px;
+}
+
+.wrapBtns{
+    margin-bottom: 4vh;
+    display: flex;
+    gap: 20px;
+    border: none;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    background: none;
+    border: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 999px;
+    transition: all 200ms ease-in-out;
+    font-size: 18px
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+@media (width <= 1000px){
+    .wrapCharts{
+        padding: 20px;
+    }
+    .wrapBtns{
+        flex-direction: column;
+        gap: 5px;
+    }
 }
