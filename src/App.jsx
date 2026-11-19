@@ -1,6 +1,7 @@
 import s from "./App.module.css";
 import { Menu } from "./components/menu";
 import alan from "../public/images/alan.jpg"
+import img from "../public/images/img.jpg"
 function App() {
   return (
     <>
@@ -21,6 +22,8 @@ function App() {
             <button className={s.btnSection1}>CLIQUE</button>
           </div>
         </div>
+
+
         <div className={s.section2}>
           <iframe
             className={s.vid}
@@ -32,6 +35,57 @@ function App() {
             allowfullscreen
           ></iframe>
         </div>
+
+
+        <div className={s.section3}>
+          <div>
+            <img className={s.imgSection3} src={img} alt="" />
+          </div>
+          <div className={s.wrapTexts2}>
+            <h2 className={s.tituloSection3}>Alguma coisa</h2>
+            <p className={s.textSection3}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              quae minus voluptatum nemo neque sit voluptates? Eaque, tenetur
+              animi laboriosam laudantium doloribus repellat non reprehenderit
+              incidunt cupiditate perspiciatis harum praesentium!
+            </p>
+            <p className={s.textSection3}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              quae minus voluptatum nemo neque sit voluptates? Eaque, tenetur
+              animi laboriosam laudantium doloribus repellat non reprehenderit
+              incidunt cupiditate perspiciatis harum praesentium!
+            </p>
+          </div>
+        </div>
+            <div className={s.section4}>
+              <div className={s.card1}>
+            <h2 className={s.tituloSection3}>Alguma coisa</h2>
+            <p className={s.textSection3}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              quae minus voluptatum nemo neque sit voluptates? Eaque, tenetur
+              animi laboriosam laudantium doloribus repellat non reprehenderit
+              incidunt cupiditate perspiciatis harum praesentium!
+            </p>
+            </div>
+        <div className={s.card2}>
+            <h2 className={s.tituloSection3}>Alguma coisa</h2>
+            <p className={s.textSection3}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              quae minus voluptatum nemo neque sit voluptates? Eaque, tenetur
+              animi laboriosam laudantium doloribus repellat non reprehenderit
+              incidunt cupiditate perspiciatis harum praesentium!
+            </p>
+        </div>
+        <div className={s.card3}>
+            <h2 className={s.tituloSection3}>Alguma coisa</h2>
+            <p className={s.textSection3}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              quae minus voluptatum nemo neque sit voluptates? Eaque, tenetur
+              animi laboriosam laudantium doloribus repellat non reprehenderit
+              incidunt cupiditate perspiciatis harum praesentium!
+            </p>
+        </div>
+            </div>
       </div>
     </>
   );
