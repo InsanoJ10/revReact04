@@ -6,7 +6,7 @@ function App() {
     <>
       <Menu />
       <div className={s.wrapHome}>
-        <div className={s.sectio1}>
+        <div className={s.section1}>
           <div className={s.wrapImage}>
             <img className={s.imgSection1} src={alan} alt="" />
           </div>
